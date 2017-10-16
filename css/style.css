@@ -1178,11 +1178,15 @@ ul.slides li {
 	}
 }
 
+@media screen and (max-width:991px) {
+	.hero {
+    	padding: 0px;
+	}
 
-
-
-
-
+	.subscribe {
+	    padding-bottom: 40px;
+	}
+}
 
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
@@ -1191,13 +1195,26 @@ ul.slides li {
     text-align: center;
 	}
 
+	.hero h1 {
+		font-size: 60px;
+		letter-spacing: -8px;
+		margin: 0;
+		font-weight: 600;
+		line-height: 40px;
+		text-transform: uppercase;
+	}
+
 	.hero h3 {
-	    letter-spacing: 10px;
+		font-size: 12px;
+	    letter-spacing: 3px;
 	}
 
 
 	.hero {
-	    padding-bottom: 0;
+		padding-top: 110px;
+		padding-right: 0px;
+		padding-bottom: 100px;
+		padding-left: 0px;
 	}
 
 	.subscribe input[type=text] {
@@ -1222,16 +1239,5 @@ ul.slides li {
 
 	.show-menu .menu-wrap {
 		height: 100%;
-	}
-}
-
-
-@media screen and (max-width:991px) {
-	.hero {
-    	padding: 0px;
-	}
-
-	.subscribe {
-	    padding-bottom: 40px;
 	}
 }
