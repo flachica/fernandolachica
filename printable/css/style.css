@@ -1,0 +1,185 @@
+
+@media screen
+{
+   body {
+       display: none;
+   }
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0%;
+}
+
+html,body {
+    min-height: 100%;
+    margin: 0%;
+    padding: 0% 0% 0% 0%;
+    color: black;
+    font-family: 'Playball', Helvetica, Arial, Sans-Serif;
+}
+
+section {
+    -webkit-print-color-adjust: exact;
+    float: right;
+    width: 63%;
+    padding-left: 1%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family: 'Open Sans', Helvetica, Arial, Sans-Serif !important;
+    font-size: 0.85em;
+    margin-right: 1%;
+}
+aside {
+    -webkit-print-color-adjust: exact;
+    float: left;
+    width: 33%;
+    height: 95%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+footer {
+    -webkit-print-color-adjust: exact;
+    clear: both;
+    margin-bottom: 0;
+    height: 5%;
+    min-height: 5%;
+}
+
+footer p {
+    font-family: 'Open Sans', Helvetica, Arial, Sans-Serif !important;
+    font-size: 0.5em;
+}
+
+.img-circle {
+    border-radius: 25%;
+    width: 80%;
+}
+aside img.img-circle {
+    padding: 10%;
+}
+
+legend {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+section legend {
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+aside legend {
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 3px;
+    padding-bottom: 2px;
+}
+
+article legend {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 0.5px;
+    padding-bottom: 2px;
+}
+
+article {
+    margin-top: 5px;
+    /*background-color: bisque;*/
+}
+
+i {
+    font-size:1em;
+    color:black;
+}
+
+p {
+    margin-top: 0%;
+    margin-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: black;
+}
+
+div a {
+    display: block;
+}
+
+/* Indicadores */
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* css formats for the gauge */
+.gauge .domain {
+    stroke-width: 2px;
+    stroke: black;
+}
+
+.gauge .tick line {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.gauge line {
+    stroke: black;
+}
+
+.gauge .arc, .gauge .cursor {
+    opacity: 0;
+}
+
+.gauge .major {
+    fill: black;
+    font-size: 20px;
+    font-family: 'Play', verdana, sans-serif;
+    font-weight: normal;
+}
+
+.gauge .indicator {
+    stroke: blueviolet;
+    fill: #000;
+    stroke-width: 4px;
+}
+
+/* css formats for the segment display */
+.segdisplay .on {
+    fill: rgb(2, 36, 36);
+}
+
+.segdisplay .off {
+    fill: rgb(2, 36, 36);
+    opacity: 0.15;
+}
+
+footer {
+    text-align: center;
+    padding-top: 5%;
+}
