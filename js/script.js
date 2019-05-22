@@ -7,18 +7,6 @@ function hide() {
 }
 
 $(document).ready(function() {
-	$('#download').click(
-		function() {
-			$('#preloader').fadeIn();
-			var frame = $("<iframe>")
-			.attr("src", "./printable/index.html")
-			.attr("width", "1000px")
-			.attr("height", "1000px")
-			.appendTo("body");
-			setTimeout(hide, 2000);
-		}
-	)
-
 	$('.wp1').waypoint(function() {
 		$('.wp1').addClass('animated fadeInLeft');
 	}, {
